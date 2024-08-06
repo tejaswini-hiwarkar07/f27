@@ -1,0 +1,226 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border;
+}
+html,body{
+    height:100%;
+    width:100%;
+}
+.main-cont{
+    height:100%;
+    background-image: url(edit.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    color:white;
+    text-align:center;
+}
+.main-head{
+    position:relative;
+    top:40px;
+    font-size: 90px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* font-weight: 30px; */
+    font-style: italic;
+    
+}
+.main-p{
+    position:relative;
+    top:60px;
+}
+.main-button{
+    background-color: orange;
+    position:relative;
+    top:80px;
+    
+}
+
+.abouttext{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    font-weight: 200px;
+}
+.about1{
+    color:black;
+    font-size: 60px;
+    font-weight: 300px;
+}
+.about2{
+    color:rgba(165, 42, 42, 0.695);
+    font-size: 60px;
+    font-weight: 200px;
+    margin-left: 20px;
+
+}
+.abimage{
+    margin-left: 30px;
+}
+.aboutinfo{
+    padding:30px;
+}
+.informa{
+    margin-left: 28px;
+    padding:30px;
+}
+.abouthead{
+    font-size:25px;
+    font-weight:200px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.twocombo{
+    display:flex;
+    flex-direction: column;
+    
+}
+.menutext{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    font-weight: 200px;
+
+}
+.menu01{
+    color:black;
+    font-size: 60px;
+    font-weight: 300px;
+
+}
+.menu02{
+    color:rgba(165, 42, 42, 0.695);
+    font-size: 60px;
+    font-weight: 200px;
+    margin-left: 20px;
+
+
+}
+.main-card{
+    height:100%;
+    width:100%;
+    padding:25px;
+    display:flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+
+}
+.card{
+    margin-right: 40px;
+    margin-bottom: 40px;
+}
+
+
+/* .cards{
+    margin-right: 40px;
+    margin-bottom: 40px;
+} */
+
+.reviewtext{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    font-weight: 200px;
+
+}
+.review01{
+    color:black;
+    font-size: 60px;
+    font-weight: 200px;
+
+}
+.review02{
+    color:rgba(165, 42, 42, 0.695);
+    font-size: 60px;
+    font-weight: 200px;
+    margin-left: 20px;
+
+}
+.main-cardss{
+    height:100%;
+    width:100%;
+    padding:25px;
+    display:flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.cards{
+    margin-right: 40px;
+    margin-bottom: 40px;
+}
+.intouch{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    font-weight: 200px;
+}
+.touch01{
+    color:black;
+    font-size: 60px;
+    font-weight: 300px;
+
+}
+.touch02{
+    color:rgba(165, 42, 42, 0.695);
+    font-size: 60px;
+    font-weight: 200px;
+    margin-left: 20px;
+
+}
+.d7{
+    height:100;
+    width:100;
+    padding:60px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.my-form{
+    /* width:40%;
+    padding: 15px;
+    border-radius: 15px; */
+    /* background-color: rgba(99, 67, 27, 0.601); */
+}
+
+.footsec{
+    background-color: rgb(65, 44, 19);
+    color:white;
+    margin:20px;
+    padding:20px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+@media (min-width:572px){
+    .aboutinfo{
+        display:flex;
+        flex-direction: row;
+        
+
+    }
+    .reviewtext{
+        display: flex;
+        flex-direction: row;
+    }
+    .d7{
+    
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .footsec{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-around;
+
+    }
+}
